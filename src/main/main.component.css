@@ -1,4 +1,33 @@
 .container{
   background-image: url('https://github.com/Moksha-123/Moksha-wpimages/blob/main/main%20background.jpg?raw=true');
-  height: 100px;
+  background-size: cover; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+.main{
+  width: 93rem;
+  height: 43rem;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.sidenav{
+  width: calc(93rem - 67.5%);
+  height: 43rem;
+  /* background-color: pink; */
+  display: flex;
+  flex-direction: column;
+}
+.conversation{
+  width: calc(93rem - 32.5%);
+  height: 43rem;
+  /* background-color:tomato; */
+  display: flex;
+  flex-direction: column;
+
 }
